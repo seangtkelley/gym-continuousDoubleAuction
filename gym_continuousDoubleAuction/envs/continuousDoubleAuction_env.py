@@ -15,7 +15,7 @@ from .agent.trader import Trader
 from tabulate import tabulate
 
 # The exchange environment
-class continuousDoubleAuctionEnv(Exchg_Helper, gym.Env, MultiAgentEnv):
+class continuousDoubleAuctionEnv(Exchg_Helper, MultiAgentEnv):
 
     metadata = {'render.modes': ['human']}
 
